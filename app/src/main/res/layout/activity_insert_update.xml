@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:orientation="vertical"
+    tools:context=".InsertUpdate">
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/logomuz" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/imageView"
+        android:orientation="vertical"
+        android:background="#F1DBF6"
+        android:layout_height="match_parent">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/foodName"
+            android:hint="Yemek Adı"
+            android:textSize="20sp"
+            android:layout_margin="25dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/foodIngredients"
+        android:hint="Malzemeler"
+        android:textSize="20sp"
+        android:layout_margin="25dp"
+        android:layout_height="wrap_content">
+
+    </EditText>
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/foodRecipe"
+            android:hint="Tarifler"
+            android:textSize="20sp"
+            android:layout_margin="25dp"
+            android:layout_height="wrap_content">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="200dp"
+            android:layout_gravity="center"
+            android:background="@drawable/ic_baseline_add_circle_outline_24"
+            android:layout_height="200dp">
+
+        </ImageView>
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:orientation="horizontal"
+           android:gravity="center"
+           android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:text="Kaydet"
+            android:layout_height="wrap_content">
+
+        </Button>
+
+        <Button
+            android:id="@+id/deleteButton"
+            android:layout_width="wrap_content"
+            android:layout_margin="25dp"
+            android:layout_gravity="center"
+            android:text="Sil"
+            android:layout_height="wrap_content">
+
+        </Button>
+    </LinearLayout>
+</LinearLayout>
+
+    </RelativeLayout>

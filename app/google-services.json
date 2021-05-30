@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "456369425927",
+    "project_id": "tarifdefteri-9c61e",
+    "storage_bucket": "tarifdefteri-9c61e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456369425927:android:e771f0f7985f3d62f7a4a2",
+        "android_client_info": {
+          "package_name": "com.example.deneme1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456369425927-k7cfiffskhnfkafg0qddjohja4q60ooq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBIVxnTVQulvEcCx_mTpqsyJ9briIes0Ms"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "456369425927-k7cfiffskhnfkafg0qddjohja4q60ooq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
